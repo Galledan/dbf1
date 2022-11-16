@@ -1,0 +1,40 @@
+.main-footer {
+  color: white;
+  background-color: black;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+}
+
+.main-footer .row {
+  justify-content: center;
+}
+
+.main-footer .row .col {
+  max-width: 100px;
+  padding-top: 20px;
+}
+
+.footer-container li {
+  display: inline;
+  margin: 10px;
+}
+
+.footer-container a {
+  color: white;
+}
+
+.footer-container a:hover {
+  color: red;
+}
+
+.main-footer i {
+    text-align: center;
+  
+  }
+    
+  
+  .main-footer p {
+  text-align: center;
+  }
+  

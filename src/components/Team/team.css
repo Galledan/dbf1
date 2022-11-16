@@ -1,0 +1,65 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  width: 600px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-family: "F1";
+}
+
+.team {
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.team-stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.drivers {
+  margin-block: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#team0:hover {
+  background-color: #6cd3bf;
+}
+#team1:hover {
+  background-color: #1e5bc6;
+}
+#team2:hover {
+  background-color: #ed1c24;
+}
+#team3:hover {
+  background-color: #f58020;
+}
+#team4:hover {
+  background-color: #2293d1;
+}
+#team5:hover {
+  background-color: #4e7c9b;
+}
+#team6:hover {
+  background-color: #2d826d;
+}
+#team7:hover {
+  background-color: #37bedd;
+}
+#team8:hover {
+  background-color: #b12039;
+}
+#team9:hover {
+  background-color: #b6babd;
+}

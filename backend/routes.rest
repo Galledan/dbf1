@@ -1,0 +1,28 @@
+GET http://localhost:5000/admins
+
+###
+
+POST http://localhost:5000/admins
+Content-Type: application/json
+
+{
+    "admin_name": "MustafaDBF2",
+    "admin_password": "dbf2"
+}
+
+###
+
+DELETE http://localhost:5000/admins/6374cf90cda006fa5c5cc273
+
+
+###
+
+PUT http://localhost:5000/drivers/63721921413b8a67e4e1622d
+Content-Type: application/json
+
+{
+    "driver_name": "Hüseyin Kuzey",
+    "driver_team": "ORACLE Red Bull",
+    "driver_number": "8",
+    "driver_point": "1"
+}

@@ -1,0 +1,29 @@
+.Pilots {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.pilots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 100vw;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+    width: 80vw;
+    margin-block:20px ;
+}
+
+.test-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}

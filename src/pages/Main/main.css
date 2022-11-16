@@ -1,0 +1,108 @@
+.Main {
+  height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 72vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  height: 72vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.content {
+  height: 72vh;
+  position: absolute;
+  width: 100%;
+  top: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container h1,
+h3 {
+  padding-block: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "F1";
+  font-weight: 600;
+}
+
+.rest-container {
+  width: 80vw;
+}
+
+.board-leaderboard-container {
+  font-family: "F1";
+  font-weight: 600;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5vw;
+  width: 100%;
+}
+
+.welcome-content p {
+  color: white;
+  font-family: "F1";
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  width: 70vh;
+}
+
+.welcome-content iframe {
+  height: 480px;
+  width: 854px;
+}
+
+.stream-container {
+  height: 80vh;
+}
+
+.discord-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10vw;
+  width: 100%;
+}
+
+.discord-content p {
+  color: white;
+  font-family: "F1";
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  width: 70vh;
+}
+
+.tables {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
