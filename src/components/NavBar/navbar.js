@@ -20,6 +20,7 @@ function navbar() {
           <Nav style={{ fontFamily: 'F1'}}>
             <Nav.Link href="pilotlar">Pilotlar</Nav.Link>
             <Nav.Link href="kurallar">Kurallar</Nav.Link>
+            <Nav.Link href="admin">Admin</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
