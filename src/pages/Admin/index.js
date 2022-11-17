@@ -79,7 +79,7 @@ function Admin() {
         driver_point: point,
       })
       .catch((err) => console.log(err));
-
+      console.log(drivers + teams);
     getDrivers();
   };
 
