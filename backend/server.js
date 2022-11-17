@@ -25,7 +25,7 @@ app.use("/drivers", driversRouter);
 app.use("/teams", teamsRouter);
 app.use("/admins", adminsRouter);
 
-app.listen(port, '0.0.0.0' ,() => {
+app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
 
