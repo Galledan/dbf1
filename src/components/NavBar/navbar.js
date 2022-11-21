@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function navbar() {
   return (
     <div>
-       <Navbar bg="black" variant="dark" expand="lg">
+       <Navbar collapseOnSelect={true} expand="lg" bg="black" variant="dark">
       <Container>
         <Navbar.Brand href="/">
             <img 
@@ -15,9 +15,9 @@ function navbar() {
             height="60"
             alt="logo"/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-          <Nav style={{ fontFamily: 'F1'}}>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
+          <Nav className="me-auto" style={{ fontFamily: 'F1'}}>
             <Nav.Link href="pilotlar">Pilotlar</Nav.Link>
             <Nav.Link href="kurallar">Kurallar</Nav.Link>
             <Nav.Link href="admin">Admin</Nav.Link>

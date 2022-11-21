@@ -18,16 +18,9 @@ function Main() {
     <div className="Main">
       <NavBar />
       <div className="main-container">
+
         <div className="header">
-          <div className="overlay" />
-          <video src={videoBg} autoPlay loop muted />
-          <div className="content">
-            <img
-              width={400}
-              src={require("../../assets/images/logo.png")}
-              alt="logo"
-            />
-          </div>
+          <video src={videoBg} autoPlay loop muted />   
         </div>
 
         <div className="rest-container">
@@ -41,6 +34,7 @@ function Main() {
                 sitemize göz gezdirebilirsin.
               </p>
               <iframe
+                className="intro-frame"
                 title="intro"
                 frameborder="0"
                 src="https://www.youtube.com/embed/pa23eW6LKsM"
@@ -56,7 +50,7 @@ function Main() {
               </div>
               <div className="team-table table">
                 <h3>Takımlar Tablosu</h3>
-                <TeamTable isAdmin={false}/>
+                <TeamTable isAdmin={false} />
               </div>
             </div>
           </div>
@@ -79,6 +73,7 @@ function Main() {
             <h1>Discordumuz</h1>
             <div className="discord-content">
               <iframe
+                className="discord-frame"
                 title="dc"
                 src="https://discord.com/widget?id=750462342244073523&theme=dark"
                 allowtransparency="true"

@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.logo {
+  max-width: 400px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -11,32 +15,16 @@
 }
 
 .header {
-  height: 72vh;
+  height: 80vh;
   width: 100%;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 video {
+  width: 100%;
   object-fit: cover;
 }
 
-.overlay {
-  position: absolute;
-  height: 72vh;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.603);
-}
-
-.content {
-  height: 72vh;
-  position: absolute;
-  width: 100%;
-  top: 59px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 .main-container h1,
 h3 {
@@ -105,4 +93,44 @@ h3 {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .header {
+    height: 20vh;
+  }
+
+  .content{
+    height: 200px;
+    top: 20vh;
+  }
+  
+  .logo{
+    width: 200px;
+  }
+
+  .welcome-content,
+  .discord-content {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .welcome-content iframe {
+    width: 100%;
+  }
+
+  .welcome-content p {
+    font-size: 5vw;
+    width: 100%;
+  }
+
+  .discord-content iframe {
+    width: 100%;
+  }
+
+  .discord-content p {
+    width: 100%;
+  }
+
+ 
 }

@@ -6,7 +6,7 @@ function Team(props) {
     <div className="team">
       <div className="team-container">
         <div className="team-stuff">
-          <img src={props.teamlogo} alt="teamlogo" width={150} />{" "}
+          <img className="teamlogo" src={props.teamlogo} alt="teamlogo" />{" "}
           {props.teamname}
         </div>
         <div className="drivers">
@@ -14,7 +14,7 @@ function Team(props) {
           <p>{props.driver2}</p>
         </div>
         <div className="car">
-          <img src={props.car} alt="car" width={400} />
+          <img className="teamcar" src={props.car} alt="car" />
         </div>
       </div>
     </div>

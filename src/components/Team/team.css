@@ -16,6 +16,14 @@
     border-radius: 25px;
 }
 
+.teamlogo{
+  width: 150px;
+}
+
+.teamcar{
+  width: 400px;
+}
+
 .team-stuff {
   display: flex;
   flex-direction: column;
@@ -62,4 +70,29 @@
 }
 #team9:hover {
   background-color: #b6babd;
+}
+
+
+@media (max-width:600px) {
+    .team-container{
+      height: 200px;
+      width: 300px;
+    }
+
+    .team-stuff{
+      font-size: 15px;
+    }
+
+    .teamlogo{
+      width: 75px;
+    }
+    
+    .teamcar{
+      width: 200px;
+    }
+    
+
+    .drivers{
+      font-size: 10px;
+    }
 }

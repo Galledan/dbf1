@@ -8,7 +8,7 @@ function Rules() {
     <div className='Rules'>
         <NavBar />
         <div className='rules-container'>
-          <iframe title="kurallar" src={require("../../assets/Damal_Bayrak_Lig_Kurallar.pdf")} height="1000" width="1000"/>
+          <iframe title="kurallar" src={require("../../assets/Damal_Bayrak_Lig_Kurallar.pdf")}/>
         </div>
         <Footer />
     </div>
