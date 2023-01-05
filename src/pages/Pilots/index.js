@@ -28,8 +28,8 @@ function Pilots() {
       teamData.push({
         teamname: t.team_name,
         teamlogo: require("../../assets/images/logos/" + t.team_logo),
-        driver1: r[0].driver_name,
-        driver2: r[1].driver_name,
+        driver1: r[0]?.driver_name,
+        driver2: r[1]?.driver_name,
         car: require("../../assets/images/cars/" + t.team_logo),
       });
     });
