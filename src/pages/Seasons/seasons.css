@@ -7,7 +7,7 @@
  max-width: 60vw;
 }
 
-.season1-container, .season2-container {
+.season {
     display: flex;
     flex-direction: column;
     align-items: center;
